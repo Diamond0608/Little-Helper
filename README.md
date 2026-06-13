@@ -130,6 +130,10 @@ Its also possible to upload the code via VSC if you use PlatformIDE or other suc
 
 17.  Detach the powerswitch and attach it to the top panel and then wire it backk to where it was. Attach the top plate to the side panels.
 
+18.  Paint/add stickers as required.
+
+19.  Drive it around and test it!
+
 ### CONGRATS!!!! YOU HAVE NOW BUILT THE BOT!!!
 
 

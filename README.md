@@ -27,7 +27,7 @@ Absolutely! The bot is actually quite basic, even the tank tracks are just held 
 YES! All the materials I've provided are open source, you can use, modify, or distribute them however you like, however please credit me for this build. Infact if you need any help with building this just send an email to me at : alvashlok@gmail.com and I'll try to help you out.
 
 ### How expensive is this?
-The cost of building it is completely and elaborately detailed in the BOM ( Bill of Materials ) showcased in this repo.
+The cost of building it is completely and elaborately detailed in the BOM ( Bill of Materials ) showcased in this repo, but the average cost would be around INR 20197.2 all inclusive, however bear in mind that if you can make the chassis yourself it would be significantly cheaper as all the components except for the chassis comes to INR 10197.2.
 
 
 
@@ -114,25 +114,27 @@ Its also possible to upload the code via VSC if you use PlatformIDE or other suc
 
 9. Now comes the part that differentiates the bot from other regular 4wd bots. Take the purchased track chain and place it over the two tires on a side. These tracks have removable links, so add or remove the links to tension the track as tightly as you can. Remember that there is nothing holding the chain there except friction. So tighten it as much as you can without risking the chain snapping.
 
-10.  Great! Now you have your hollow shell, the next step would be wiring etc, before you close the top or front and back plates so that you can still easily access components. Bring the wiring for the components placed on the side panels through their respective holes. Then place the motor driver, ESP8266, and ESP32 in their respective positions. Attach the ultraonic sensor to the front panel on the mounting plate. Plop the buzzer into its holder as well (Don't attach power button yet). Next refer to the wiring schematic and connect all the components together(except leds). If you don't want the wires coming off you can solder them to the terminals instead of just having the jumper cables. Do not connect the battery or powerswitch yet.
+10.  Great! Now you have your hollow shell, the next step would be wiring etc, before you close the top or front and back plates so that you can still easily access components. Bring the wiring for the components placed on the side panels through their respective holes. Then place the motor driver, ESP8266, and ESP32 in their respective positions. Attach the ultraonic sensor to the front panel on the mounting plate. Plop the buzzer into its holder as well (Don't attach power button yet).
 
-11.  Now would be the stage where I would suggest you upload the code, as you can still test and make sure everything is correct by fixing any issues before you close any panels. (NOTE: DO NOT UPLOAD THE CODE WITH THE BOT ON A TABLE. Sometimes the wheels can spin when you're uploading the code, yes , even if you've disconnected the battery.) Make sure to upload the codes for both the ESPs.
+11.  Next refer to the wiring schematic and connect all the components together(except leds). If you don't want the wires coming off you can solder them to the terminals instead of just having the jumper cables. Do not connect the battery or powerswitch yet.
 
-12.  Once that's all done and dusted you can go ahead connect the battery and the powerswitch, but leave the powerswitch dangling somewhere inside the chassis do not secure it in place yet as then you would have to close the top panel.
+12.  Now would be the stage where I would suggest you upload the code, as you can still test and make sure everything is correct by fixing any issues before you close any panels. (NOTE: DO NOT UPLOAD THE CODE WITH THE BOT ON A TABLE. Sometimes the wheels can spin when you're uploading the code, yes , even if you've disconnected the battery.) Make sure to upload the codes for both the ESPs.
 
-13.  Switch it on and configure your method of controlling the bot and then make sure everything is running fine, and if not debug.
+13.  Once that's all done and dusted you can go ahead connect the battery and the powerswitch, but leave the powerswitch dangling somewhere inside the chassis do not secure it in place yet as then you would have to close the top panel.
 
-14.  Now keep all the panels in close vicinity and attach the front and back plates to the side panels.
+14.  Switch it on and configure your method of controlling the bot and then make sure everything is running fine, and if not debug.
 
-15.  Attach the led lights to the resistors and cables and wire it appropriately. Then insert the led light into the side plate by pushing it into the led holes till its securely fastened. Now test the led lights.
+15.  Now keep all the panels in close vicinity and attach the front and back plates to the side panels.
 
-16.  Take the top plate and attach the box to it (if you are attaching one to carry stuff). Secure it tightly since it moving can affect the CG and make the bot topple down the stairs if it shifts.
+16.  Attach the led lights to the resistors and cables and wire it appropriately. Then insert the led light into the side plate by pushing it into the led holes till its securely fastened. Now test the led lights.
 
-17.  Detach the powerswitch and attach it to the top panel and then wire it backk to where it was. Attach the top plate to the side panels.
+17.  Take the top plate and attach the box to it (if you are attaching one to carry stuff). Secure it tightly since it moving can affect the CG and make the bot topple down the stairs if it shifts.
 
-18.  Paint/add stickers as required.
+18.  Detach the powerswitch and attach it to the top panel and then wire it backk to where it was. Attach the top plate to the side panels.
 
-19.  Drive it around and test it!
+19.  Paint/add stickers as required.
+
+20.  Drive it around and test it!
 
 ### CONGRATS!!!! YOU HAVE NOW BUILT THE BOT!!!
 

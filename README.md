@@ -144,6 +144,13 @@ Its also possible to upload the code via VSC if you use PlatformIDE or other suc
 
 ## NOW GO AND SHOW OFF YOUR BOT!
 
+Some photos:
+
+<img width="1028" height="721" alt="Littlehelper11" src="https://github.com/user-attachments/assets/a199cb95-8f2a-4e5a-b900-285f37fed7dc" />
+<img width="744" height="522" alt="Littlehelper3" src="https://github.com/user-attachments/assets/0a91e3e5-dc6e-46d6-8ef8-715e32b1383b" />
+<img width="1178" height="828" alt="image" src="https://github.com/user-attachments/assets/c5fe2b36-cd91-48fc-9792-843097dddf67" />
+
+
 
 
 

@@ -1,0 +1,70 @@
+BILL OF MATERIALS (BOM) for Little Helper:,,,,,,
+"This is the BOM for the V1 of the file, and as such it does not have autonomous capabilites. The parts listed here can be customised to your preference.",,,,,,
+,,,,,,
+Serial Number,Item Name,Item Description/Link,Price Per Unit,Qty,Total Price (With tax),Notes:
+,,,,,0,
+CHASSIS COMPONENTS:,,,,,0,
+,,,,,0,
+1,Chassis Top Plate,,,1,0,"I've quoted a price for 3D printing, it can be CNCd as well / woodworked. Or made out of foamboard (be careful may not be"
+2,Chassis Bottom Plate,,,1,0,strong enough to withstand the torque.)
+3,Guide Rails,,,2,0,"Exact cost for 3D printing would depend on many factors, I've provided an estimate from printing legion (Hack Club)."
+4,Side Panels,,,1,0,
+5,Front Panel,,,1,0,
+6,Back Panel,,,1,0,
+7,Battery Holder,,,1,0,
+8,Tracks,,2500,1,2500,"Could also DIY the tracks yourself for half the cost using eletrical conduits, bicycle inner tubing and zipties. (More details to come)"
+,TOTAL:,,10000,1,10000,Without tracks
+,,,,,0,
+ELECTRONICS COMPONENTS:,,,,,0,
+,,,,,0,
+8,3S 11.1V 2200 mAh Battery,https://robu.in/product/pro-range-18650-li-ion-2200mah-3s-11-1v-10c-3s1p-with-jst-xh-female-t-connector-female/,1649,1,1649,Can use a higher capacity battery for a longer life.
+9,Buzzer,https://robocraze.com/products/3-volts-buzzer-small?_pos=3&_sid=2ff08fb82&_ss=r,14,1,14,Buy a passive buzzer instead if you want to be able to change the tones.
+10,LED Light Red,https://robocraze.com/products/3mm-red-led-pack-of-10?_pos=1&_sid=30256fbbe&_ss=r,1.5,10,15,Only 8 are needed but can only be bought in packs of 10
+11,Johnson Grade A 1000RPM Motors DC,https://robocraze.com/products/johnson-dc-geared-motor-12v-1000-rpm-grade-a,569,4,2276,Can change motors but change the wheel to make sure shafts match.
+12,4.7 kohm resistor,https://robocraze.com/products/4-7k-resistor-pack-of-10?_pos=4&_sid=6e7182c4c&_ss=r,1.2,10,12,Only 8 are needed but can only be bought in packs of 10
+13,RC522 RFID reader/writer,https://robocraze.com/products/rfid-rc522-mfrc?_pos=1&_psq=rfid+rc&_ss=e&_v=1.0,89,1,89,Only use if you also want to restrict access during operation like me.
+14,SW_SPST (Rocker Switch),https://robocraze.com/products/rocker-switch-6a-250v-spdt-3-pin-red-led?_pos=3&_sid=4e117ee12&_ss=r,45,1,45,Use good quality wires as they don't come with the component (mentioned)
+15,ESP8266 NODEMCU 12-E ,https://robocraze.com/products/nodemcu-esp8266-amica-cp2102-driver?_pos=3&_sid=32cb70c9e&_ss=r,236,1,236,Can use another version just change the wiring and code.
+16,ESP32 NODEMCU XXSR69,https://robocraze.com/products/esp32-development-board?_pos=1&_sid=abb9eb10e&_ss=r,425,1,425,Can use another version just change the wiring and code.
+17,MDD10A_REV2.0_CYTRON,https://robocraze.com/products/cytron-10a-5v-30v-dc-motor-driver-2-channels,2699,1,2699,If changing this make sure the current draw is handalable(the 1000RPM motors will fry an LN298 motor driver).
+18,4*4_Matrix_KeyPad,https://robocraze.com/products/4x4-membrane-keypad?_pos=1&_sid=1b5f670d7&_ss=r,41,1,41,Only use if you also want to restrict access during operation like me.Or for an input like class and section for autonomous.
+19,HC-SR04 Ultrasonic Sensor,https://robocraze.com/products/hc-sr-04-ultrasonic-sensor?_pos=1&_sid=cae36d341&_ss=r,89,1,89,"Can be removed if you don't want it, I've used it for emergency stopping since it will be run in a school."
+20,I2C_LCD_ADAPTOR,https://robocraze.com/products/16x2-lcd-i2c-interface-adapter?_pos=1&_psq=I2C&_ss=e&_v=1.0,53,1,53,Can also get an LCD screen with this integrated.
+21,LCD16*2,https://robocraze.com/products/16x2-lcd-module-green?_pos=2&_sid=d7554cae1&_ss=r,165,1,165,"Any LCD screen with 16 pins will do, not a necessary component you can use an app/serial monitor for outputs as well."
+22,LM2596 Buck Converter 11.1-3.3,https://robocraze.com/products/lm2596-dc-dc-step-down-buck-module-with-display?_pos=4&_sid=535535c18&_ss=r,109,1,109,DO NOT FORGET. YOU WILL FRY YOUR 5/3.3V COMPONENTS.
+23,Wires for switch SafeConnect Nylon T,https://robu.in/product/safeconnect-nylon-t-connector-pair-with-jst-male-in-line-power-adapter-cable/?gad_source=1&gad_campaignid=17427802559&gclid=CjwKCAjwxb7RBhA5EiwAQ-AAdO8wb09wEH7zHuqZmd7GPv1i04uDU7X7ZQTAGzEaY5BqXRVoo4HG7hoCg64QAvD_BwE,99,1,99,For safety :0
+24,PS3 Controller,https://www.amazon.in/GAMENOPHOBIA-Controller-Playstation-professional-PlayStation3/dp/B09J1BYSQB/ref=pd_sbs_d_sccl_1_2/525-8337356-0101367?pd_rd_w=EDf51&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=Z9BE02YRQTXWKGG33TZZ&pd_rd_wg=Onaju&pd_rd_r=8ce99457-dd1a-4092-96c2-04f0e5b9227c&pd_rd_i=B09J1BYSQB&psc=1,780,1,780,Can also use a PS5 controller/phone/anything you want.
+,,,,,0,
+MISCELLANEOUS COMPONENTS:,,,,,0,
+,,,,,0,
+25,Tyre 20mm*100mm,https://robocraze.com/products/10-x-2-cm-gear-motor-robot-wheel-tyres-for-6-mm-shaft-geared-dc-motor-4-pieces?_pos=1&_sid=0195552e9&_ss=r,52.25,4,209,"This is a link for 4 tyres, DO NOT ORDER 4 SETS OF TYRES."
+26,A3 Box For Books,https://amzn.in/d/0fPFYW2t,899,1,899,"Can remove this if no need of transport, can also customise the box."
+27,M3 Screws 10mm,https://onlyscrews.in/products/m3-x-10mm-hex-allen-csk-high-tensile10-9-black-oxide-screw-dia-3mm-length-10mm,1.8,60,108,Recommended to just get a screw kit/set. The screws are also purchasable at a local hardware shop instead of online.
+28,M5*35mm Hex Head Bolt,https://onlyscrews.in/products/m5-x-30mm-hex-allen-csk-high-tensile10-9-black-oxide-screw-dia-5mm-length-30mm-1,2.8,4,11.2,"If using nuts, nylon is good since it will be a very tight lock, however, the nut gets worn and less effective with each use."
+29,M5 Hex Nut,https://onlyscrews.in/products/m5-nyloc-nuts-mild-steel-with-zinc-plating-dia-5mm,1.2,4,4.8,Use self tapping screws if you don't have a threaded hole.
+30,M3 Screws 4mm,https://onlyscrews.in/products/m3-x-8mm-hex-allen-socket-head-high-tensile12-9-black-oxide-screw-dia-3mm-length-8mm,3,28,84,
+31,M3 Hex Nut,https://onlyscrews.in/products/m3-nyloc-nuts-mild-steel-with-zinc-coating-dia-3mm,0.9,4,3.6,
+32,M3*30mm Screw,https://onlyscrews.in/products/m3-x-30mm-hex-allen-socket-head-ss-304-screw-dia-3mm-length-30mm?_pos=1&_psq=m3*30mm&_ss=e&_v=1.0,6,4,24,
+33,M3*25mm Screw,https://onlyscrews.in/products/m3-x-25mm-phillips-csk-ss-304-screw,2.4,8,19.2,
+34,M5*16mm,https://onlyscrews.in/products/phillips-csk-m5-x-16mm-pack-of-20,2.4,16,38.4,
+,,,,,0,
+SUGGESTED TOOLS (INCLUDING SOFTWARE):,,(Not calculated into cost),,,0,
+,,,,,0,
+35,Screwdriver Phillips Head,,,1,0,As per your convenience choose whatever tools you require.
+36,Allen Key Set,,,1,0,
+37,Soldering Iron,,,1,0,
+38,Drill (Should work on plastic),,,1,0,
+39,3D printer/CNC/Woodworking tools,,,,0,
+40,Arduino IDE,,,,0,
+41,Modules specified in code,,,,0,
+42,Some 3D CAD software,,,,0,
+43,Wire strippers and cutters,,,,0,
+,,,,,0,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,Total Price :,INR,22697.2,,
+,,,,,,

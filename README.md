@@ -27,7 +27,7 @@ Absolutely! The bot is actually quite basic, even the tank tracks are just held 
 YES! All the materials I've provided are open source, you can use, modify, or distribute them however you like, however please credit me for this build. Infact if you need any help with building this just send an email to me at : alvashlok@gmail.com and I'll try to help you out.
 
 ### How expensive is this?
-The cost of building it is completely and elaborately detailed in the BOM ( Bill of Materials ) showcased in this repo, but the average cost would be around INR 20197.2 all inclusive, however bear in mind that if you can make the chassis yourself it would be significantly cheaper as all the components except for the chassis comes to INR 10197.2.
+The cost of building it is completely and elaborately detailed in the BOM ( Bill of Materials ) showcased in this repo, but the average cost would be around INR 22697.2 all inclusive, however bear in mind that if you can make the chassis yourself it would be significantly cheaper as all the components except for the chassis and tracks comes to INR 10197.2. The tracks could be DIY'd using pipes, zipties and bicycle tubing. More details on that will come after I attempt it myself.
 
 
 

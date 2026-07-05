@@ -1,5 +1,7 @@
 # LITTLE HELPER:
 ## DOCUMENTATION
+<img width="744" height="522" alt="Littlehelper3" src="https://github.com/user-attachments/assets/74b0aebb-92bc-4fb1-bc36-00a27e471716" />
+<img width="565" height="408" alt="Littlehelper" src="https://github.com/user-attachments/assets/aa7a95da-d113-4015-a7a6-e350b80c7fff" />
 
 ## Basic Questions and Overview:
 

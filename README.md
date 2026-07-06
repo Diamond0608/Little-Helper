@@ -1,7 +1,10 @@
 # LITTLE HELPER:
 ## DOCUMENTATION
-<img width="744" height="522" alt="Littlehelper3" src="https://github.com/user-attachments/assets/74b0aebb-92bc-4fb1-bc36-00a27e471716" />
-<img width="565" height="408" alt="Littlehelper" src="https://github.com/user-attachments/assets/aa7a95da-d113-4015-a7a6-e350b80c7fff" />
+<p align="center">
+  <img width="744" height="522" alt="Littlehelper3" src="https://github.com/user-attachments/assets/74b0aebb-92bc-4fb1-bc36-00a27e471716" />
+  &nbsp;
+  <img width="565" height="408" alt="Littlehelper" src="https://github.com/user-attachments/assets/aa7a95da-d113-4015-a7a6-e350b80c7fff" />
+</p>
 
 ## Basic Questions and Overview:
 
@@ -149,7 +152,6 @@ Its also possible to upload the code via VSC if you use PlatformIDE or other suc
 Some photos:
 
 <img width="1028" height="721" alt="Littlehelper11" src="https://github.com/user-attachments/assets/a199cb95-8f2a-4e5a-b900-285f37fed7dc" />
-<img width="744" height="522" alt="Littlehelper3" src="https://github.com/user-attachments/assets/0a91e3e5-dc6e-46d6-8ef8-715e32b1383b" />
 <img width="1178" height="828" alt="image" src="https://github.com/user-attachments/assets/c5fe2b36-cd91-48fc-9792-843097dddf67" />
 
 

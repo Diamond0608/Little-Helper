@@ -8,7 +8,8 @@
 - ID: 10608
 - Author: Diamond_0608
 - Created At: 2026-05-31T08:07:21Z
-
+**NOTE:**  54min tracked
+2 recordings
 ### Content
 
 So to start out with my build, I first decided to 3d model the box in which the teachers can place the books and then 3d animate it. I couldn't manage to design exact hinges but I made something that was understandably a hinge. I made a latching mechanism since if the bot is climbing stairs the books falling out would obviously be :(. I made the size of the box A3 with enough height for all the textbooks and notebooks they may carry between classes as well. (The box could be 3d printed except for the hinges as long as you either print it in pieces and use plastic adhesives or just bought from a store like an icebox or made from foamboard with the hinges  bolted in (use thick foamboard else the box may tear from the bolts/ the weight). The mechanism to attach the box to the bot will be constructed after I make the bot. I'm not the best at 3d cad design so this was the best I could do. I didn't want an open box because then teachers can have privacy if theyre transporting papers and nothing can fall out as well. The A3 size was chosen since I thought that's the biggest size I've personally seen a teacher carry around my school. The hinges were particulary hard for me to cad design since I'm not good with designing parts that actually fit together, I'm more of a build it in person with cad as a visualisation tool person. The animations helped make sure it all fits together right and moves in the right way and the dimensions and spacing are right. TLDR: made box for the books :D
@@ -24,6 +25,10 @@ So to start out with my build, I first decided to 3d model the box in which the 
 - ID: 10915
 - Author: Diamond_0608
 - Created At: 2026-06-01T15:50:19Z
+**NOTE:**1h 16m tracked
+2 recordings
+
+
 
 ### Content
 
@@ -50,7 +55,8 @@ What I did today was I started with the CAD work for the actual chassis, wheels 
 - ID: 10943
 - Author: Diamond_0608
 - Created At: 2026-06-01T17:33:07Z
-
+**NOTE: **50min tracked
+1 recording
 ### Content
 
 What I did now was I made a 3d version of the battery that I'm using (11.1V 3s Liion 2200mah battery) and of my esp8266 and small electronics components (red led light for warning and buzzer) and I finally made the tank tracks by first making a small piece thats going to be the section and then tracing out a path and making a pattern and it actually ended up looking pretty sick. Doing the design of the tracks helped me realise i miscalculated pretty big and I need 4 of the track sections im ordering and not 2 so that would have been a very big oopsy. The next steps are obviously adding more parts and assembly but atleast its starting to come together and look like a track based robot. 
@@ -72,7 +78,8 @@ What I did now was I made a 3d version of the battery that I'm using (11.1V 3s L
 - ID: 11098
 - Author: Diamond_0608
 - Created At: 2026-06-02T10:10:57Z
-
+**NOTE: ** 54min tracked
+1 recording
 ### Content
 
 What I did today was I added smaller electronics like the RFID, numkey, motor driver, power switch and then I animated the joints between the motor and wheel and brought the tracks into place. I tried animating the tracks to link to the wheel but I was wildly unsuscessful there. I brought the bolts into place as well for the motor. I decided to just ditch animating the tracks for now (in the CAD model you will see a gap between the tracks and the wheel just ignore this and make sure to tension the track as much as possible without risking it snapping.) I was trying to bring the side plate to the main body when I realised two things, I completely forgot to add the guides and the side plate is way too short. But that is a problem I'll fix in the next journal. As always this project seems way out of my league but we shall keep trying.
@@ -91,7 +98,8 @@ What I did today was I added smaller electronics like the RFID, numkey, motor dr
 - ID: 11421
 - Author: Diamond_0608
 - Created At: 2026-06-03T17:22:25Z
-
+**NOTE:** 1h 9m tracked
+2 recordings
 ### Content
 
 Today I did some pretty basic and unremarkable work. I mostly worked on creating joints between components and fixing the sizing issue that was present for the side plates. I realised that the side plates were too thick to not hit the tracks so I reduced the thickness. I also made the guide rails for the tracks so that they don't fall off since they're purely friction based tracks with no binding mechanism. I added supports for the guide rails and made them a part of the side plate itsself to avoid complicating it. I started with the front and back plates and joining the box for the books to the top plate as well. I didn't achieve nearly as many hours as I wanted to today and I have to absolutely lock in if I want to make it to fallout.
@@ -110,7 +118,8 @@ Today I did some pretty basic and unremarkable work. I mostly worked on creating
 - ID: 11577
 - Author: Diamond_0608
 - Created At: 2026-06-04T09:38:03Z
-
+**NOTE:** 1h 2m tracked
+1 recording
 ### Content
 
 So today to start off the day, I first added the bolts and nuts to hold the box to the top plate and then I started changing the appearance and material of all the components to make it more accurate and for aesthetics. I also started making a battery holder and added little terminals to the motors. I made the wheels resemble what they look like in real life as well. And that's about it really.
@@ -130,7 +139,9 @@ So today to start off the day, I first added the bolts and nuts to hold the box 
 - ID: 11628
 - Author: Diamond_0608
 - Created At: 2026-06-04T15:30:59Z
-
+**NOTE:** 
+1h 45m tracked
+2 recordings
 ### Content
 
 What I've done now has actually been really productive, I worked on the battery holder and fixed some joints and decals and designed the battery holder with all the mounting screws decals and a hole for the wiring as well. The more exciting part though is what I did after, today I finally got rid of that ugly looking threading on the tires and replaced it with actual tire tread and that honestly looked amazing. I also changed the side plates so they actually have a design element to them and are no longer just flat rectangles now. On the guide rails as well I added some text. The most drastic change in terms of apppearance is the front plate which has gone from a flat rectangle to an actual really cool design that I'm pretty proud off, I learnt how to use the emboss tool just for that. I also added materials again especially rubber to the tracks and tires. I put some text on the front as well as a kind off joke number plate. The design actually looks pretty alright, and despite the fact that to most it probably still looks abysmal I'm suprised I managed to get this far. Hopefully the rest of my days stay this productive. Shenzen here I come. For tomorrow I'm going to work on the back plate and some more aesthetics as well as moving the electronic components in, trying to see if I can actually make links for the tracks and who knows what else.
@@ -153,7 +164,9 @@ What I've done now has actually been really productive, I worked on the battery 
 - ID: 11664
 - Author: Diamond_0608
 - Created At: 2026-06-04T17:44:02Z
-
+**NOTE:** 
+57min tracked
+1 recording
 ### Content
 
 To sign off for the day I made the backplate design, similar to the front and with its own text as well. I then moved and attached the front plate to the side plates with screws and I also learnt how to use the activate component tool and how to switch back to be able to work on the project easier. It was a long tiring and productive day, and hopefully tomorrow will be more of the same.
@@ -177,7 +190,9 @@ To sign off for the day I made the backplate design, similar to the front and wi
 - ID: 11805
 - Author: Diamond_0608
 - Created At: 2026-06-05T09:51:04Z
-
+**NOTE:** 
+2h 6m tracked
+1 recording
 ### Content
 
 To start today first I updated the guide rails to make them look better by adding some detailing. I joined the back plate to the main chassis as well with bolts and all which was difficult because of all the overlap. I resized the bottom plate a bit to accomodate the back plate as well. All of the fasteners I've used so far have been placed in holes with modelled threading as well. Then I attached both side plates to the bottom plate of the chassis with screws as well. I also remodelled the hinges of the box completely since they looked horrible before. I added some text to the sides of the box as well for some design elements.
@@ -205,7 +220,8 @@ To start today first I updated the guide rails to make them look better by addin
 - ID: 11860
 - Author: Diamond_0608
 - Created At: 2026-06-05T15:45:38Z
-
+**NOTE:** 1h 55m tracked
+1 recording
 ### Content
 
 What I've done now is I've made the top cover look better and then moved the entire top with the box to the main chassis which was incredibly frustrating since it didn't want to move together no matter what I tried, and it put my screws in the middle of nowhere miles apart (shown in photo) and moved parts into the middle of the box for some reason as well which was ridiculously frustrating so I just remade the parts. The infinite amount of parallax error also drove me absolutely nuts. After that, once the top plate was adjusted properly and bolted in I started moving the electronic components in, and screwing them in until I realised that in my infinite wisdom I didn't leave any space for the RFID and numkey. So I had to chop the guiderails on one side to fix this, which is a bit odd but is my best option all things considered. After fixing this and a few other misconfigured joints, I also had to redo the canvases since they were seen across the project, weren't selectable and didn't move with the objects. I also added a caution plate on the front. Fusions view movement tool also keeps bugging out and I think I might lose my mind. 
@@ -227,7 +243,9 @@ What I've done now is I've made the top cover look better and then moved the ent
 - ID: 12019
 - Author: Diamond_0608
 - Created At: 2026-06-06T09:17:38Z
-
+**NOTE:** 
+1h 50m tracked
+1 recording
 ### Content
 
 To start off the day, I first increased the height of the guide rails since I realised that they weren't really guiding anything, and checked that the bottom rail wasn't touching the ground. Then I redesigned the leds a bit and put them in set placed holes around the chassis. Then I fixed the RFID positioning and some faulty joints for that. I've finally reached the unfortunate point where fusion lags especially if I try to change old components so that's a bit annoying, and hopefully I finish the CAD work soon. I had to stop recording for a while as well since I was just waiting between clicks to delete the rfid linkages cause I had to redo that completely. I also added a little holder for the buzzer to sit in (didn't seem necessary to make a locking mechanism for it so it just sits in place). Added a power button to the top as well. I fixed some mismatched spacing on the bottom plate as well. I then started making the connecting wires between the motors and the motor driver. The level of detail I'm trying to add is making my computer genuinely tweak. I tried to join each connecting wire to the motor driver with smaller copper wires but after getting a horrible result and incredible lag with one soul sucking wire I decided only to keep 1 connected properly and the rest differently. Next up would be finishing the wiring for the rest of the parts and some final polish work cause I'm genuinely done with this CAD work.
@@ -252,6 +270,10 @@ To start off the day, I first increased the height of the guide rails since I re
 - ID: 12042
 - Author: Diamond_0608
 - Created At: 2026-06-06T14:16:49Z
+**NOTE:** 3h 2m tracked
+1 recording
+
+
 
 ### Content
 
@@ -282,7 +304,8 @@ I then made a little resistor for the led lights since thats a very important co
 - ID: 12298
 - Author: Diamond_0608
 - Created At: 2026-06-07T15:38:21Z
-
+**NOTE:** 1h 52m tracked
+1 recording
 ### Content
 
 To start out today I moved the resistors to the LED lights. I then made some pin headers for the ESP8266 and the motor driver and made the connections between them as well. Then I tried to move the tracks so they actually sat on the tires instead of magically levitating. I first tried to do this by changing the spline sketch over the wheels until after doing that I realised that it was the position of the first link that affected that so I in essence wasted all my time. Fusion also keeps randomly closing when it lags, which is becoming very ominous. I also changed how the tracks look by adding the actual links between the individual chain pieces to make the tracks slightly better. I had to readd some resistors since for some reason half of them just vanished and kept dissapearing. I connected all the leds to the esp as well after checking that it wouldn't fry the esp. Next up I have to wire the ground for the leds, make an ultrasound sensor and place that and then I have to wire the rfid, numkey, and the ultrasound and code it all as well which is a part I'm not particularly looking forward to rn. What's really cool though is you can see my CAD skills improving through this project.
@@ -305,6 +328,8 @@ To start out today I moved the resistors to the LED lights. I then made some pin
 - ID: 12350
 - Author: Diamond_0608
 - Created At: 2026-06-07T18:46:46Z
+**NOTE:** 1h 23m tracked
+1 recording
 
 ### Content
 
@@ -325,7 +350,8 @@ To sign off for the night, I first made the ultrasound sensor and a plate for it
 - ID: 12541
 - Author: Diamond_0608
 - Created At: 2026-06-08T17:03:28Z
-
+**NOTE:** 26min tracked
+1 recording
 ### Content
 
 I was a bit busy today so my logged hours ended up coming up under my goal. I started out with connecting the buzzer to the ESP's ground and GPIO pin. Fusion and my laptop are really struggling now with the number of components so after the wiring for the rest of the components and the aesthetic design updates I'll stop my CAD work. Next I did the wiring for the RFID (Didn't finish it though). In the middle of all of this lookout started tweaking out as well which was not helping at all. Not a very productive day but what can you do.
@@ -341,6 +367,10 @@ I was a bit busy today so my logged hours ended up coming up under my goal. I st
 - ID: 12749
 - Author: Diamond_0608
 - Created At: 2026-06-09T12:22:06Z
+**NOTE:** 1h 8m tracked
+1 recording
+
+
 
 ### Content
 
@@ -356,7 +386,8 @@ Today, I resumed with the rfid wiring but realising that I couldn't  make the RF
 - ID: 12778
 - Author: Diamond_0608
 - Created At: 2026-06-09T15:43:41Z
-
+**NOTE:** 1h 43m tracked
+1 recording
 ### Content
 
 I started making an arduino Uno model as a slave to the esp 8266. I've used an esp8266 and an arduino since that's what I have, but people could use rasberry pis, arduinos,esp32s or whatever suits them better. I also realised that an led/lcd display is pretty much necessary for any info to be displayed. I also made an LCD screen model and wired the numkey to the arduino. I even modelled the cable from the numkey to look like a proper cable and gave all the pin headers to the arduino and connected the arduino to the esps VIN pin. The components keep shifting and causing alignment issues and I have no clue what to do with that at this point so for the time being I just have to ignore it. Everytime I think I'll be done with the CAD soon, I realise I have something or the other to add. I think something I'm also going to do is I'm going to make the bot manually controlled initially, and if feasable add capabilities for autonomous navigation. The wiring to me is by far the hardest part of the CAD work.
@@ -376,7 +407,9 @@ Unfortunately my fusion shut and since I hadn't saved literally all the work I d
 - ID: 13032
 - Author: Diamond_0608
 - Created At: 2026-06-10T15:52:50Z
-
+**NOTE:** 
+1h 39m tracked
+1 recording
 ### Content
 
 To start off for today, I first had to surmount the tragic task of redoing all the work that was lost yesterday in the fusion crash. I realised my C drive was completely filled so hopefully giving that more space and constantly saving my files is going to save me now. I had hoped that having done it before it would turn out better than previously and in faster time, but this run had its own complications.I really can't wait to start building, I feel like skipping the coding and diagram schematics so bad. I also decided to ditch the Arduino Uno and keep a ESP32 as my device with an 8266 as secondary. I realised I completely forgot to put spacers for any of the electronic components, so that's something I'll have to include in the readme. For some reason Fusion is failing to make recovery files, so I better keep saving and praying nothing goes wrong. I was thinking of just using the same spline to make lofts for wires but the wires start looking so identical that it loses its charm and it doesn't always work. The messy wires are kind of like perfection in inperfection. I just made the base plate unselectable temporarily so that I don't accidentally move it around even more. I have a few more things to wire, and some aesthetic design after which I think I'm going to make the robot first drivable via a ps5 controller, and later on add autonomous capability, I was going to have it controlled via a phone before but since I have an esp32 now, I can use this instead. 
@@ -399,7 +432,8 @@ To start off for today, I first had to surmount the tragic task of redoing all t
 - ID: 13068
 - Author: Diamond_0608
 - Created At: 2026-06-10T18:24:44Z
-
+**NOTE:** 53min tracked
+1 recording
 ### Content
 
 I decided I should definitely rename all the bodies and components right after I finish the wiring, since I spent a solid 5 minutes just looking for the front plate just to know where the hole for the ultrasound wires was which is obviously ridiculously inneficient. I wired the ultrasound sensor, the esps together and screwed down the esp. I decided to model all the lidar stuff after I actually finished the lidar code and decisions and stuff way later down the road. I'm spending every breathing moment that I'm free on this project and its making me feel so tired, and the lack of sleep is really getting to me. I realised 5v power is an issue so I connected both the ESP32 and the ultrasonic sensor to the motor drivers 5v out in parallel to the 8266. 
@@ -420,7 +454,8 @@ I decided I should definitely rename all the bodies and components right after I
 - ID: 13199
 - Author: Diamond_0608
 - Created At: 2026-06-11T10:45:07Z
-
+**NOTE:** 1h 12m tracked
+1 recording
 ### Content
 
 To start off I decided to rename all the components, since Its really hard to show and hide components when I'm manually spending so long just scrolling through components, plus it adds a level of polish to the cad file. Just my luck fusion crashed once again, and I was so happy to see a recovery file but even that was corrupted, I don't know what the hell this luck is, but I redid it nevertheless. I'm looking forward to saving the final file and not touching it until I need to cause I'm fed up of the lag and crashes, I'm going to save so frequently now. I named some of the bodies as start and end when there were just 100 mirrored parts instead of taking ridiculous time to rename each one. Next, I moved the LCD display into place and added an I2C adaptor which I still have to finish modelling but will save me a lot of pins.
@@ -441,7 +476,8 @@ To start off I decided to rename all the components, since Its really hard to sh
 - ID: 13277
 - Author: Diamond_0608
 - Created At: 2026-06-11T17:43:02Z
-
+**NOTE:** 1h 5m tracked
+1 recording
 ### Content
 
 I finished the modelling for the LCD screen and its I2C adapter and then wired it to the ESP32.  I spent 5 minutes just trying to figure out why my splines weren't working right just to realise I hadn't enabled my sketches to be 3d. The only downside of using the esps is I have such a huge lack of 5v pins so I have just everything running in parallel so hopefully the current draw isn't too much. I also realised that My original plan of having the charger protruding out the back to just be able to plug it in would no longer work considering I have nowhere to put the charger so I just gave up on that idea for now.
@@ -458,7 +494,8 @@ I finished the modelling for the LCD screen and its I2C adapter and then wired i
 - ID: 13425
 - Author: Diamond_0608
 - Created At: 2026-06-12T09:24:17Z
-
+**NOTE:** 48min tracked
+1 recording
 ### Content
 
 So to start off for the day, I first made a Github repository for my project and started off with the readme for the project. I made the following headings: Basic questions and overview, The CAD file, Suggestions for use. There isn't really that much to talk about. The way I wrote it was by thinking of how project readmes of projects I really admire looked like, and thinking from the perspective of someone who was reading this for the first time in the sense that I had no relation to the project or skills. I tried to think of what I would like to know and in what format.
@@ -480,7 +517,8 @@ After I finish all the sections of the readme that I can currently, I'll move on
 - ID: 13441
 - Author: Diamond_0608
 - Created At: 2026-06-12T11:11:39Z
-
+**NOTE:** 48min tracked
+1 recording
 ### Content
 
 I updated the ReadMe with some more information pertaining to the CAD file, code and I made a complete guide on how to build it as well. I also spoke about what should be changed, and what people can modify if they're making the project on their own. I improved previous headings by filling in the gaps that I realised were present after I started talking about the build. Now anyone can build the project by just getting the materials and sourcing the ReadMe. I have to add a BOM and photos of the CAD model to the repo which I will do next log, and I also realised that I forgot to make the holes and fasteners for the motors to the side panel.
@@ -498,7 +536,8 @@ I updated the ReadMe with some more information pertaining to the CAD file, code
 - ID: 13508
 - Author: Diamond_0608
 - Created At: 2026-06-12T17:24:23Z
-
+**NOTE:** 2h 2m tracked
+2 recordings
 ### Content
 
 The first thing I did was I fixed some mistakes in the CAD file, to make sure it was perfect, like missing screws, misaligned components and holes, and other tiny details that were messing up the work. Due to the base plate moving around a lot of the screws were misaligned, so I did my best to rectify that. For some reason I couldn't manually move the components because of joints, yet they still got messed up and didn't move with the joint which was interesting. A wire also went straight throw the motor driver so I had to go back and fix that. Another thing I did was make some aesthetic changes, cause I realised that the body could do with some paint work. However, choosing the colours and everything was a bit difficult since I lack any aethetic taste really. The colour options on fusion are a bit lacking as well. I added some more detailing and added a little guy that some people may recognise (SOUUUPPPP!!!) . I tried to make a honeycomb type pattern on the front number plate as well (That proved difficult with the size of the honeycombs and the size of the pattern that I wanted my fusion crashed so yay, luckily this time the recovery file actually worked. So then I made the honeycombs much larger so that it was easier to make).  All that just to decide the honeycombs don't look the best and leave only 2.
@@ -529,7 +568,9 @@ Then I also added the 3d files to the repo. I couldn't figure out how to add fol
 - ID: 13702
 - Author: Diamond_0608
 - Created At: 2026-06-13T12:26:26Z
-
+**NOTE:** 
+2h 11m tracked
+1 recording
 ### Content
 
 Today is the day we finally start out with the schematics!
@@ -556,7 +597,9 @@ I created the file and then immediately realised I have none of the necessary sy
 - ID: 13731
 - Author: Diamond_0608
 - Created At: 2026-06-13T14:32:56Z
-
+**NOTE:** 
+56min tracked
+1 recording
 ### Content
 
 I made the I2C Adapter and the LCD screen's schematic diagram. I realised though that I had lost my LCD screen which was a little unfortunate. While I was making the schematic, I realised, why use yellow as the background colour instead of the actual colour? I tried to also get the internal parts to have their own colour, I didnt realise that it overlays the more intense colour over it. After importing the symbols in though I realised that it looked horrendous and the uniformity was why it was all yellow. My scaling may be a bit odd though for the project the component sizes really aren't accurate, but since they're 3d modeled it doesn't really matter since I know the space won't be an issue. My perfectionism made me take a really long time just to make all the internal components white to distinguish it from the rest of the body. Atleast all the symbols are imported now. I came to the unfortunate conclusion that I was wasting so much time in colour picker when I could have just picked the defined colour from the next tab. I also love saving the file and not seeing it lag out like the CAD files.
@@ -577,7 +620,8 @@ I made the I2C Adapter and the LCD screen's schematic diagram. I realised though
 - ID: 13786
 - Author: Diamond_0608
 - Created At: 2026-06-13T18:23:05Z
-
+**NOTE:** 1h 5m tracked
+1 recording
 ### Content
 
 I started wiring the components together, I tried to follow the wiring from the CAD, but some components are slightly innacurate and I also realised that my ESP32 was a WROOM32 in the CAD and a NodeMCU one in the schematic, good thing I added the don't follow the CAD wiring and only use as a reference in the README.md I guess. I'm doing my best to learn standard practise and not just do whatever I want, but having zero knowledge, it's a bit hard. The CAD is still really usefull though, since it saves me quite a lot of thinking cause some stuff is already planned out, and I know how feasible it would be. Yet despite all that CAD work, I made some very very bad errors particularly I didn't realise that my motor driver doesn't have a 5v out pin, which is very problematic for obvious reasons. So now I need to go and buy a buck converter as well for this project just to be able to connect to my esps. My knowledge of diagrams is so limited I didn't even know what switch to use. The file started getting too close without even 1/4th of the wires needed so I had to change the configuration to an A3 sheet and now I have to move all the components one by one. Which is a process I started but didn't finish. In this log though I managed a decent amount of wiring, though it will all dissapear now that I have to delete it all and move everything. I did figure out the basic logic I would need for the buck converter though.
@@ -598,7 +642,9 @@ I started wiring the components together, I tried to follow the wiring from the 
 - ID: 13898
 - Author: Diamond_0608
 - Created At: 2026-06-14T05:53:14Z
-
+**NOTE:** 
+1h 15m tracked
+1 recording
 ### Content
 
 Started out by optimising the placement of symbols in the schematic to make the wires look tidy. I almost miscalculated the buck converter and set it to 5V to fry my esps. I realised I need 1 converter to 5V and 1 to get me to 3.3V. Then I realised I only need to step it down to 3.3V and I can use the ESP's VIN pins for the 5V outputs, and that way I'm maintaining uniform logic as well. I realised that converting this voltage isn't as easy as I thought.  But then I found a voltage converter that while slightly more expensive would be way safer than my nonsense. I just had to make another custom symbol for that. I tried to even add in the LEDS in the buck converter to the symbol but it wouldn't fit. At this point I've rethought and redone the wiring like 5 times, so the all in one buck converter seems like a great option since I don't want to fry my ESPs and have to buy new ones. While the buck converter and logic has been mostly fixed, I still have to get around to doing the wiring all over again.
@@ -617,7 +663,9 @@ Started out by optimising the placement of symbols in the schematic to make the 
 - ID: 13919
 - Author: Diamond_0608
 - Created At: 2026-06-14T08:52:48Z
-
+**NOTE:** 
+1h 21m tracked
+1 recording
 ### Content
 
 Started off with the wiring, and the new buck converter really simplified a lot of the work as well. Having the increased page size also gave me a lot of room to work with. With the motor driver I'm using, both the motors on one side connect to the same pinouts. The NODEMCU ESP32 diagram does differ slightly from the one I have, which I realised after wiring once again when I actually cross referenced it. So I once again custom made the symbol for it and now I have to redo the wiring. The way stuff was arranged in the symbol kept stopping me from being able to fill in the internal circles which really bugged me. Having a timeline like in fusion would be so helpful.
@@ -638,7 +686,8 @@ Started off with the wiring, and the new buck converter really simplified a lot 
 - ID: 14004
 - Author: Diamond_0608
 - Created At: 2026-06-14T15:27:42Z
-
+**NOTE:** 43min tracked
+1 recording
 ### Content
 
 Realised even my ESP8266 differs from the one in the symbol, I think NODEMCU makes a few different versions, so I just made my own symbol again. I'm spending so much time on the symbols at this point but I'd rather be safe than sorry. As always having the physical component to visually see and draw out is so helpful. The alignment of the pins and the circles came out perfectly this time.
@@ -660,7 +709,8 @@ I realised that filling in all the internal things white wasn't perfectionism it
 - ID: 14200
 - Author: Diamond_0608
 - Created At: 2026-06-15T09:12:12Z
-
+**NOTE:**52min tracked
+1 recording
 ### Content
 
 I continued with the wiring, connected the ESPs together and the numpad to the esp. My wiring in the CAD and the schem is different, but it's written in the readme that the schematic should exclusively be followed, and regardless the difference can be easily tweaked in the code if someone follows something different. The I2C on my LCD saves me from having to use a logic shifter to connect it to my ESP. I connected the LCD's I2C to the ESP8266. I tried to use the default SCL and SDA pins, but again that would just be a quick code debug and fix.  I realised I was placing no connect flags everywhere there was a wire without a junction which apparently isn't what you're supposed to do, so I had to go delete all of them.I mostly finished the wiring, so I'll probably be moving to the code soon.
@@ -681,7 +731,8 @@ I continued with the wiring, connected the ESPs together and the numpad to the e
 - ID: 14231
 - Author: Diamond_0608
 - Created At: 2026-06-15T12:13:44Z
-
+**NOTE:** 1h 8m tracked
+1 recording
 ### Content
 
 I spent an embarrasing amount of time trying to create a folder in GitHub since I'm not really familiar with it. Once I did that, I organised my files into folders. My lack of knowledge is genuinely embarrasing, but I guess we all have to start somewhere. I also exported the BOM from KiCad to use as a starting point as well as the schematic as a pdf and put it in the GitHub. I managed to add the full 3d files to GitHub as well instead of just the links using the app. I then got to work on the BOM. I also took the BOM from fusion to help. I'll update the ReadMe with this as well as more detailed wiring instructions as well.  I have some more work on the BOM to do, then after the ReadMe I'll get to work on the code.
@@ -700,7 +751,9 @@ I spent an embarrasing amount of time trying to create a folder in GitHub since 
 - ID: 14263
 - Author: Diamond_0608
 - Created At: 2026-06-15T15:56:58Z
-
+**NOTE:** 
+58min tracked
+1 recording
 ### Content
 
 Continued with the BOM, added pricing and links to the product and also added notes mostly pertaining to whether people can not use that component and customise it. When I exported to CSV, I lost not only all my formatting but the hyperlinks, so I guess it's a good thing I caught that in time.  I decided to put an xlsx as well as a csv just incase. I guess now it's time to move onto the firmware.
@@ -719,7 +772,9 @@ Continued with the BOM, added pricing and links to the product and also added no
 - ID: 14499
 - Author: Diamond_0608
 - Created At: 2026-06-16T11:13:09Z
-
+**NOTE:** 
+57min tracked
+1 recording
 ### Content
 
 Started off with the firmware today, but first I included the modules needed for the ESP32 components and then cross referenced each of my pins on the ESP32 with an online pinout version so I could check the GPIO pin numbers to be able to code it. Luckily most of the pins correspond to their Digital pin numbers so for those pins it was quite easy to define variables. Hopefully messed up pin numbering or functions won't be too hard to fix though. My lack of coding ability without AI though is making progress really difficult.  I did have to use gemini to make it teach me since I was really confused.  I'm trying my hardest to not use googled/ai generated code and learn it completely but god is progress going slow.

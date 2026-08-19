@@ -4,35 +4,56 @@
   <img width="744" height="522" alt="Littlehelper3" src="https://github.com/user-attachments/assets/74b0aebb-92bc-4fb1-bc36-00a27e471716" />
   &nbsp;
   <img width="565" height="408" alt="Littlehelper" src="https://github.com/user-attachments/assets/aa7a95da-d113-4015-a7a6-e350b80c7fff" />
+  <img width="1280" height="963" alt="WhatsApp Image 2026-08-17 at 5 44 37 PM" src="https://github.com/user-attachments/assets/4ed45e5c-03a5-47ec-8629-401ceff2ffae" />
+  <img width="1280" height="963" alt="WhatsApp Image 2026-08-17 at 5 44 32 PM" src="https://github.com/user-attachments/assets/bac61f26-bbb6-4ade-90b9-38a7b7772a72" />
 </p>
 
 ## Basic Questions and Overview:
 
 ### What is Little Helper?
 
-Little Helper is a track based 4wd bot that is capable of climbing stairs and moving around with a giant box on top of it so that teachers can carry books and papers between floors, although it could be used for other purposes as well! As of right now it is controlled via a PS3 controller (you could also use a phone to control it if you tweak the code). I plan to eventually add autonomous capabilities but that is not currently available.
+Little Helper is a track based 4wd bot that is capable of  moving around with a giant box on top of it so that teachers can carry books and papers, although it could be used for other purposes as well! As of right now it is controlled via a PS3 controller (you could also use a phone to control it if you tweak the code). I plan to eventually add autonomous capabilities but that is not currently available.
+You can find a demo of the bot here: https://youtu.be/gsAc9kgTfto
+<p align="center">
+  <img width="1280" height="963" alt="WhatsApp Image 2026-08-17 at 5 44 36 PM" src="https://github.com/user-attachments/assets/6e012e7a-1378-4714-880c-b47bbc6c5aff" />
+</p>
 
 ### Why did I make this project?
 
 A while back after a robotics competition called the National Robotics League, a teacher saw our robot moving blocks around and jokingly asked, could you make it move the textbooks from class to class? We laughed it off, but when I was preparing an idea for Fallout - a Hack Club program, I thought why not actually do that? I love building bots that can drive and it would actually be usefull.
 
 ### Use case:
-The bot has an A3 sized box on top and a set of tank tracks that help move it, but the bot could very easily be retrofitted to other purposes as well. For example an all terrain bot would also be a valid use case due to the tank tracks. The tank tracks also make it easy to climb stairs or other unusual surfaces (keep in mind the stairs can't have too much height), the motors I've used are highly powerful and have really good torque as well, so it would be a good recreation/racing bot perhaps (bear in mind that the bot would be on the heavier side). It could also be used to pull or push objects should you want. (The only limit here is your imagination realistically, the bot is kind off a base to build your ideas!)
+The bot has an A3 sized box on top and a set of tank tracks that help move it, but the bot could very easily be retrofitted to other purposes as well. For example an all terrain bot would also be a valid use case due to the tank tracks. The tank tracks also make it easy to climb stairs or other unusual surfaces (keep in mind the stairs can't have too much height), however, the current version of this bot is unable to climb stairs due to the front plate being too long but I am working on making a new version of the bot that has a much better design, the motors I've used are highly powerful and have really good torque as well, so it would be a good recreation/racing bot perhaps (bear in mind that the bot would be on the heavier side). It could also be used to pull or push objects should you want. (The only limit here is your imagination realistically, the bot is kind off a base to build your ideas!)
 
 ### How long would it take me to build this?
-The main issue with the building process would be acquiring the parts especially the 3d printed parts, however as for the rest of it, if you're following this guide to the T, a week should be more than enough if you have your parts.
+The main issue with the building process would be acquiring the parts especially the 3d printed parts, however as for the rest of it, if you're following this guide to the T, a maximum duration should be around 35 hours, since I took that time period to build the project for the first time in R&D without any powertools.
 
 ### Can I buy this?
 In a way. While the bot isn't available for purchase you can buy the parts and build it yourself! It honestly isn't that difficult even if you have very basic skills in regards to this. Another thing to bear in mind is that this is obviously not a lisenced or approved project, so there's no warranty and should you need regulatory authorisation/permission , you would need to reach out to the appropriate body yourself.
 
 ### Is it easy to build this?
-Absolutely! The bot is actually quite basic, even the tank tracks are just held on by guiderails and friction. I'm not the most skilled individual so I couldn't make the project too difficult to build, which gives the benefit of an easy to make product.
+Absolutely! The bot is actually quite basic, even the tank tracks are just held on by guiderails and friction. I'm not the most skilled individual so I couldn't make the project too difficult to build, which gives the benefit of an easy to make product. However, obviously it should be noted that this project's target group is enthusiastic tech people/ people getting into hardware.
 
 ### Is this all free?
 YES! All the materials I've provided are open source, you can use, modify, or distribute them however you like, however please credit me for this build. Infact if you need any help with building this just send an email to me at : alvashlok@gmail.com and I'll try to help you out.
 
 ### How expensive is this?
-The cost of building it is completely and elaborately detailed in the BOM ( Bill of Materials ) showcased in this repo, but the average cost would be around INR 22697.2 all inclusive, however bear in mind that if you can make the chassis yourself it would be significantly cheaper as all the components except for the chassis and tracks comes to INR 10197.2. The tracks could be DIY'd using pipes, zipties and bicycle tubing. More details on that will come after I attempt it myself.
+The cost of building it is completely and elaborately detailed in the BOM ( Bill of Materials ) showcased in this repo, but the average cost would be around INR 22697.2 all inclusive, however bear in mind that if you can make the chassis yourself it would be significantly cheaper as all the components except for the chassis and tracks comes to INR 10197.2. The tracks could be DIY'd using bicycle tubing. More details on that are given in the build guide.
+
+
+
+## Mapping and Functionality:
+
+The code currently works in the following way: The left stick moves the bot forward and backwards, and the right stick lets you move sideways. The square button activates a buzzer, the O locks the bot, and X toggles the safety mechanism.
+
+### Authentication:
+The bot has a 2 factor authentication method- first you scan a keycard on an RFID scanner and then input a pin to gain access. The LCD screen guides you through this process and there are auditory beeps to help as well.
+The O button on the controller locks the bot and forces you to authenticate again.
+The controller even if connected is practically dead until authentication is completed. The bot starts in a locked state by default when turned on.
+
+### Safety Mechanism:
+The bot has an ultrasonic sensor mounted in the front that stops the bot if you are closer than 15 cm from an obstacle. The safety mechanism disables controls at that point and sounds the buzzer. The bot cannot be moved until the obstacle is removed. The safety can be turned off when X is pressed, but this will not work if an obstacle is already in the path of the bot. 
+
 
 
 
@@ -40,7 +61,7 @@ The cost of building it is completely and elaborately detailed in the BOM ( Bill
 
 
 
-1. Firstly if you plan for the robot to move up stairs, keeping CG in mind while loading stuff in the box would help (try to keep the books flat as otherwise not only would it move around but should they fall that may displace the bot).
+1. Firstly if you plan for the robot to move up stairs, keeping CG in mind while loading stuff in the box would help (try to keep the books flat as otherwise not only would it move around but should they fall that may displace the bot). (CANNOT CLIMB STAIRS CURRENTLY)
    
 2. The battery life won't be more than an hour (I've not tested this yet but it's an approximate). However installing a battery of higher amperage would be really easy ( Just don't change the voltage or if you do use a step down/step up converter).
   
@@ -61,6 +82,10 @@ The cost of building it is completely and elaborately detailed in the BOM ( Bill
 ## The CAD File:
 
 The CAD file can be found in this repository as both a STEP file and a f3d file ( I made the model in fusion ). 
+<p align="center">
+  <img width="1263" height="716" alt="Littlehelper5" src="https://github.com/user-attachments/assets/e38aede5-ae78-4724-85dc-e7035ad768ae" />
+<img width="1206" height="781" alt="Littlehelper7" src="https://github.com/user-attachments/assets/01ade639-6560-40df-847c-b7998b188b28" />
+</p>
 
 ### Basic Suggestions:
 
@@ -96,20 +121,48 @@ The code can be uploaded to the ESPs via Arduino IDE. Just make sure you select 
 
 Its also possible to upload the code via VSC if you use PlatformIDE or other such extensions, so if that's something you want to do that is also possible.
 
+There are 2 code files present, one for the ESP32 and one for the ESP8266, keep in mind that I personally AI generated this code and did not make it myself.
+
+<p align="center">
+<img width="1557" height="703" alt="image" src="https://github.com/user-attachments/assets/0a3f0f1f-f7a1-4b64-9425-9a2aec14a006" />
+
+</p>
 
 ## Building the Project: 
 
-
+If you are using self-tapping screws note that the screws can get really hot as you drive them into the bot. I really recommend making the holes yourself with a drill. Note that I did the following tasks in a different order, so the photos may not match the instructions perfectly, in that case please follow the instructions instead of the photos. More photos of what I built can be found in the photos folder of this repo.
 
 1. To start with refer to the BOM and ensure you have all the parts you require. ( You could start building with only some of the parts and adding parts as and when they come as well but workflow would become worse ).
 
-2. Step one would be to take your side panels and attach the motors to them. The motors have 3 holes in an L shape which can be matched to the side Chassis. Orient it in a way such that the motor shaft passes through the hole in the same way that in passes through on the opposite side (avoid difference between he sides since that would make the tracks uneven). 
+<p align="center">
+<img width="1658" height="672" alt="image" src="https://github.com/user-attachments/assets/42409915-0098-4b8a-a328-7ffc7fb52afc" />
+
+</p>
+
+2. Step one would be to take your side panels and attach the motors to them. The motors have 3 holes in an L shape which can be matched to the side Chassis. Orient it in a way such that the motor shaft passes through the hole in the same way that in passes through on the opposite side (avoid difference between the sides since that would make the tracks uneven). 
+
+<p align="center">
+<img width="1600" height="1204" alt="WhatsApp Image 2026-07-12 at 12 02 51 AM" src="https://github.com/user-attachments/assets/e9190466-cd14-45d1-8e36-24d56a45e926" />
+</p>
 
 3. Once that is done, attach the guidelines as per the screw holes at the center of the side panel. ( For the guidlines there's only a small surface area where there is a contact between it and the panel. 
 
+<p align="center">
+<img width="1600" height="1204" alt="WhatsApp Image 2026-07-16 at 5 26 31 PM (2)" src="https://github.com/user-attachments/assets/9d9d3a03-b17a-4684-b5d4-d2452a35f58e" />
+</p>
+
 4. Next take the RFID reader, LCD screen and Numpad and place and secure them in the appropriate positions on the side panels. Note that the numpad isn't secured by screws as it has no scope for that due to its thickness and material. The numpad comes with adhesive on the back and it should be placed on the side panel.
 
+<p align="center">
+<img width="1600" height="1204" alt="WhatsApp Image 2026-07-13 at 4 38 29 PM (2)" src="https://github.com/user-attachments/assets/063f3832-fb7e-45f3-8408-895b7cb1cd8a" />
+
+</p>
+
 5. Take the battery and place it in the battery holder (if you changed the battery obviously change the battery holder as well unless it's the same configuration). Secure the cover as well. In my CAD file there is a canvas showing a fire hazard, I would suggest making a marking similarly whether with a marker or a sticker, or 3d printing an imprint or sticking a sheet of paper. 
+
+<p align="center">
+<img width="1600" height="1204" alt="WhatsApp Image 2026-07-19 at 1 47 04 PM" src="https://github.com/user-attachments/assets/802b0c60-f5ad-4e96-ab4e-4d425fba313d" />
+</p>
 
 6. Take the bottom panel and attach the battery holder (and the buzzer holder if that was printed seperately).
 
@@ -117,9 +170,22 @@ Its also possible to upload the code via VSC if you use PlatformIDE or other suc
 
 8. Now take the wheels and place them on the motor shafts such that the tire treads all point in the same direction and the hole on the tire for the bolt overlaps with the hole on the motor. Place the m3 bolt inside and secure it tightly (the wheels should not shake or come lose). A nut isn't needed for this bolt as the motor shaft has threading.
 
+<p align="center">
+<img width="1600" height="1204" alt="WhatsApp Image 2026-07-14 at 4 28 41 PM (1)" src="https://github.com/user-attachments/assets/3412a3ee-0876-4915-b709-b6760fef2d67" />
+</p>
+
 9. Now comes the part that differentiates the bot from other regular 4wd bots. Take the purchased track chain and place it over the two tires on a side. These tracks have removable links, so add or remove the links to tension the track as tightly as you can. Remember that there is nothing holding the chain there except friction. So tighten it as much as you can without risking the chain snapping.
+9.1 If you want to make the tracks yourself, simply purchase any regular bicycle tube and cut off the part where the nozzle is present. Once that is done you can wrap it around the wheels and adjust the length until its a very firm grip, but not firm enough that it may snap or is bending the wheels or motors (be very careful about this, you have to get an ideal tensioning). Then mark and cut the track and glue the ends together and mount it securely.
+
+<p align="center">
+<img width="1600" height="1204" alt="WhatsApp Image 2026-07-16 at 5 26 31 PM (1)" src="https://github.com/user-attachments/assets/43d058fd-567e-4c07-aef2-e8d1a22877ba" />
+</p>
 
 10.  Great! Now you have your hollow shell, the next step would be wiring etc, before you close the top or front and back plates so that you can still easily access components. Bring the wiring for the components placed on the side panels through their respective holes. Then place the motor driver, ESP8266, and ESP32 in their respective positions. Attach the ultraonic sensor to the front panel on the mounting plate. Plop the buzzer into its holder as well (Don't attach power button yet).
+
+<p align="center">
+<img width="1600" height="1204" alt="WhatsApp Image 2026-08-15 at 8 00 09 PM (1)" src="https://github.com/user-attachments/assets/83b847b2-1ea9-4b70-8fcd-e577becde402" />
+</p>
 
 11.  Next refer to the wiring schematic and connect all the components together(except leds). If you don't want the wires coming off you can solder them to the terminals instead of just having the jumper cables. Do not connect the battery or powerswitch yet.
 
@@ -150,10 +216,17 @@ Its also possible to upload the code via VSC if you use PlatformIDE or other suc
 ## NOW GO AND SHOW OFF YOUR BOT!
 
 Some photos:
-
+<p align="center">
 <img width="1028" height="721" alt="Littlehelper11" src="https://github.com/user-attachments/assets/a199cb95-8f2a-4e5a-b900-285f37fed7dc" />
 <img width="1178" height="828" alt="image" src="https://github.com/user-attachments/assets/c5fe2b36-cd91-48fc-9792-843097dddf67" />
+<img width="1280" height="963" alt="WhatsApp Image 2026-08-17 at 5 44 32 PM (1)" src="https://github.com/user-attachments/assets/e8e0149c-54f6-4bdb-b6a5-c1ec062bf9de" />
+<img width="1280" height="963" alt="WhatsApp Image 2026-08-17 at 5 44 33 PM" src="https://github.com/user-attachments/assets/908d23db-bffc-4cce-bed2-ebcf8c8751b0" />
+<img width="1280" height="963" alt="WhatsApp Image 2026-08-17 at 5 44 33 PM (1)" src="https://github.com/user-attachments/assets/e490c886-3e26-4a0a-bbd5-18dbdeebab23" />
+<img width="1280" height="963" alt="WhatsApp Image 2026-08-17 at 5 44 36 PM (1)" src="https://github.com/user-attachments/assets/6c7bafb7-283c-4ef1-ad3f-52dd4aefa409" />
+  <img width="1145" height="684" alt="Littlehelper9" src="https://github.com/user-attachments/assets/d4ac3c07-0aa1-4bc9-850c-2a21752fa521" />
+<img width="1600" height="1204" alt="WhatsApp Image 2026-08-16 at 10 16 43 PM" src="https://github.com/user-attachments/assets/63fda087-2e08-4a9b-8ad0-f9b833842d26" />
 
+</p>
 
 
 
